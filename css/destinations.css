@@ -44,7 +44,7 @@ h1{
     border-style: dotted;
     text-align: left;
    margin: 0;
-   padding: 0;
+   padding:20px;
    color: rgb(93, 85, 109);
    margin-top: 40px;
    width: 100%;
@@ -135,6 +135,7 @@ footer{
     margin-top: 40px;
     font-size:40px;
     margin-left:700px;
+    padding:20px;
 }
 .compass{
     margin-left:600px;
@@ -367,7 +368,7 @@ footer{
 }
 .greecevilla{
     border-radius: 20%;
-    margin-left:20px;
+    margin-left:10px;
     margin-top: 40px;
     margin-bottom: 100px;
 }
