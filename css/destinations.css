@@ -1,23 +1,27 @@
 nav{
-    background-color: rgb(235,217, 243);
-    text-align: center;
-    font-size: 25px;
-    height:70px;
+    background-color: rgb(220, 236, 250);
+    text-align:right;
+    height: 60px;
+    width:100%;
     border: 6px;
-    border-color:rgb(172, 127, 157); 
-    border-style: groove;
-    position:sticky;
-    top:30px;
-    padding:0;
-
+    border-style: solid;
+    border-color: rgb(165, 192, 243);
+    position: sticky;
+    top: 0px;
+    padding:20px;
 }
 nav li{
-    display: inline-block;
-    font-size: 30px;
     margin:0;
     padding:0;
+    color: palevioletred;
+    display: inline-block; 
+}
+.navbar{
+    text-decoration: none;
+    color: rgb(9, 85, 109);
+    font-size: 30px;
+    padding: 0 20px;  
     
-
 }
 .titlename{
     margin:0;
@@ -28,113 +32,479 @@ a:link{
     
 }
 a:hover{
-    color: rgb(20, 157, 220);
+    color: rgb(87, 197, 160);
 }
 a:active{
-    color: chartreuse;
-   
+    color:rgb(146, 127, 255);
 }
 h1{
-    background-color: rgb(235, 217, 243);
-    color:rgb(107, 105, 96);
-    text-align: center;
-    border-style: groove;
-    
-}
-aside{
-    float:right;
-    background:rgb(239, 230, 240);
-     color:rgb(107,105,96);
-     width:48%;
-     height:400px;
-     margin-top: 40px;
-     border:6px;
-     border-color:rgb(239, 230, 240);
-     border-style:groove;
-     text-align: center;
-
-}
-section{
-    float: left;
-    background-color:rgb(239, 230, 240);
-    color: rgb(231, 177, 213);
-    width:48%;
-    height:500px;
-    margin-top: 40px;
+    background-color: rgb(220, 236, 250);
     border: 6px;
-    border-color:rgb(239, 230, 240);
-    border-style: groove;
-
-
+    border-color:rgb(165, 192, 243);
+    border-style: dotted;
+    text-align: left;
+   margin: 0;
+   padding: 0;
+   color: rgb(93, 85, 109);
+   margin-top: 40px;
+   width: 100%;
 }
+
 p{
     background-color: thistle;
     color:teal;
     text-align: center;
-    
-}
-article{
-    float:left;
-    clear:both;
-    background:rgb(236, 221, 236);
-    color:rgb(107,105,96);
-    width: 48%;
-    height: 600px;
-    margin-top: 20px;
-    border:6px;
-    border-color: rgb(239, 230, 240);
-    border-style:groove;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 40px;;
-}
-p{
     color:rgb(107,105,96);
 }
 body{
-    background-image: url(../images/let-there-be-sun.png);
-    background-color:sandybrown;
+    background-image: url(../Images/morocco.png);
     box-sizing: border-box;
+    background-color:rgb(214, 172, 118);
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing:3px;
 }
+
 .navlinks{
     color:rgb(107,105,96);
     padding:0 40px;
 }
-.box{
-    float: right;
-    background-color: rgb(239, 230, 240);
-    color:rgb(107,105,96);
-    width:48%;
-    height:100px;
-    margin-top: 80px;
-    padding:6px;
-    box-shadow:rgb(172, 159, 159) 10px 15px;
-      
+.footer{
+    color: rgb(93, 85, 109);
+    width:50%
+
+
 }
 footer{
-    width:100%;
-    height: 40px;
-    background-color: rgb(239, 230, 240);
-    color:rgb(107,105,96);
-    text-align: left;
-    margin-top: 700px;
+    width:50%;
+    background-color: rgb(220, 236, 250);
+    text-align:center;
     border: 6px;
-    border-color: rgb(136, 113, 136);
-    border-style:solid;   
-    clear:both;
-   
+    border-color: rgb(165, 192, 243);
+    border-style:outset;
+    float: right;
+    clear: both;
+    margin-top: 200px;
+    height:100px;
 }
-.mail{
-    border-radius:20%;
+.fas{
+    color: rgb(9, 85, 109);
+    font-size: 40px;
+    text-decoration: none;
+    float:left;
+    clear: both;
     position: relative;
-    left: 20px;
-    top: 4px;
+    bottom:90px;
+    left: 40px;
+}
+.fas:hover{
+    color: rgb(158, 200, 212);
+}
+.fab{
+    color:rgb(9, 85, 109);
+    font-size: 40px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+    left:100px;
+}
+.fab:hover{
+    color:rgb(158, 200, 212);
+}
+.footer{
+    background-color:rgb(220, 236, 250);
+    color:rgb(9, 85, 109);
+    font-size: 30px;
+    margin-left:200px;
+    color: rgb(9, 85, 109);
+    width:50%
 }
 .insta{
+    position: relative;
+    left: 200px;
+    
+}
+.wwyltg{
+    color:rgb(220, 236, 250);
+    background-color:rgb(9, 85, 109);
+    border: 10px;
     border-radius: 20%;
-    position:relative;
-    left:40px;
-    top:4px;
+    border-style: dotted;
+    width:25%;
+    margin-top: 40px;
+    font-size:40px;
+    margin-left:700px;
+}
+.compass{
+    margin-left:600px;
+}
+.com{
+    border:20px;
+    border:rgb(165, 192, 243);
+    border-style: solid;
+    margin-top: 40px;
+    background-color: rgb(173, 222, 236);
+}
+.wmap{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.places{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    font-size: 35px;
+    margin-left: 80px;
+    color:rgb(9, 85, 109);
+    border:5px;
+    border-style: solid;
+    border-color:rgb(165, 192, 243);
+    line-height: 50px;
+}
+.amsterdam{
+    float:left;
+    width:48%;
+    border-color: rgb(45, 71, 94);
+    border:6px;
+    border-style: dotted;
+    margin-top: 200px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+    
+}
+.amhead{
+    color: rgb(9, 85, 109);
+    border: 6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width:48%;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    text-align: center;
+
 }
 
-  
+ .macaroontext2{
+    clear: both;
+    line-height:35px;
+    color:rgb(9, 85, 109);
+    background-color: rgb(165, 192, 243);
+ }
+.macaroonpic{
+    border-radius: 20%;
+    margin-left: 80px;
+    
+     
+}
+.tower{
+    border-radius: 20%;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.amflowers{
+    border-radius: 20%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.amatnight{
+    border-radius:20%;
+    margin-bottom:40px;
+    margin-right:40px;
+}
+.Seoul{
+    float: right;
+    width: 48%;
+    border:6px;
+    border-style: dotted;
+    margin-top: 200px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+    
+    
+}
+.sk{
+    border-radius: 20%;
+    margin-left: 150px;
+}
+.skhead{
+    color:rgb(9, 85, 109);
+    border:6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width: 48%;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    text-align: center;
+}
+.skfood{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.skfood2{
+    border-radius:20%;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.skfood3{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left:200px;
+    margin-bottom: 20px;
+}
+.seoulfoodguide{
+   clear:both;
+   color:rgb(9, 85, 109);
+   background-color:rgb(165, 192, 243);
+   text-align: center;
+   font-size: 20px;
+   
+}
+.skatnight{
+    margin-left: 150px;
+    border-radius:20%;
+    margin-bottom: 110px;
+    margin-top: 80px;
+}
+.ireland{
+    float:left;
+    width:100%;
+    border-color: rgb(45, 71, 94);
+    border:6px;
+    border-style: dotted;
+    margin-top: 200px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+    
+}
+.irishbeauty{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.irelandhead{
+    color: rgb(9, 85, 109);
+    border: 6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width:48%;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    text-align: center;
+}
+.irishbridge{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.irishanimals{
+    border-radius:20%;
+    margin-top:40px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+.irelandpubs{
+    clear: both;
+    text-align: center;
+}
+.irishstreet2{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.insidepub{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-right:40px;
+
+}
+.guinness{
+    border-radius:20%;
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+.irishman{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.greece{
+    float:left;
+    width:48%;
+    border-color: rgb(45, 71, 94);
+    border:6px;
+    border-style: dotted;
+    margin-top: 100px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+}
+.greecehead{
+    text-align: center;
+    color: rgb(9, 85, 109);
+    border: 6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width:48%;
+}
+.greecerestaurant{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+
+}
+.greecerestaurant2{
+    border-radius: 20%;
+    margin-top:40px;
+    margin-right: 10px;
+}
+.greecevilla{
+    border-radius: 20%;
+    margin-left:20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.greecefood{
+    border-radius: 20%;
+    margin-right: 10px;
+    margin-top:40px;
+}
+.greecehead{
+    margin-left: 200px;
+}
+.africa{
+    float: right;
+    width: 48%;
+    border:6px;
+    border-style: dotted;
+    margin-top: 100px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+}
+.africahead{
+    text-align: center;
+    color: rgb(9, 85, 109);
+    border: 6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width:48%;
+    margin-left: 200px;
+}
+.elephant{
+    border-radius:20%;
+    margin-top:40px;
+    margin-left: 10px;
+    
+}
+.africanchildren{
+    border-radius: 20%;
+    margin-top:40px;
+    margin-right:10px;
+    
+}
+.africanlady{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 120px;
+    
+}
+.zebras{
+    border-radius:20%;
+    margin-top:100px;
+    margin-right:10px;
+ 
+}
+.argentina{
+    float:left;
+    clear:both;
+    width:100%;
+    border-color: rgb(45, 71, 94);
+    border:6px;
+    border-style: dotted;
+    margin-top: 100px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+}
+.argentinahead{
+    text-align: center;
+    margin-left: 400px;
+    color: rgb(9, 85, 109);
+    border: 6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width:48%
+}
+.argentinabldg{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.colorfulwall{
+    border-radius: 20%;
+    margin-top:40px;
+    margin-right: 40px;
+}
+.bandofbros{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.argentinastreet{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-right: 40px;
+   
+}
+.america{
+    float:left;
+    clear:both;
+    width:100%;
+    border-color: rgb(45, 71, 94);
+    border:6px;
+    border-style: dotted;
+    margin-top: 100px;
+    color: rgb(2, 33, 91);
+    background-color:rgb(173, 222, 236);
+}
+.americahead{
+    text-align: center;
+    margin-left: 400px;
+    color: rgb(9, 85, 109);
+    border: 6px;
+    border-style:solid;
+    border-color:rgb(165, 192, 243);
+    width:48%
+}
+.chicagoviews{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.chicagotheatre{
+    border-radius: 20%;
+    margin-top:40px;
+    margin-right: 40px;
+}
+.thebean{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+   
+}
+.chicagobridge{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-right: 40px;
+}

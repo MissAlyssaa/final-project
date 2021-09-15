@@ -1,0 +1,226 @@
+nav{
+    background-color: rgb(220, 236, 250);
+    text-align:right;
+    height: 60px;
+    width:100%;
+    border: 6px;
+    border-style: solid;
+    border-color: rgb(165, 192, 243);
+    position: sticky;
+    top: 0px;
+    padding:20px;
+}
+nav li{
+    margin:0;
+    padding:0;
+    color: palevioletred;
+    display: inline-block; 
+}
+.navbar{
+    text-decoration: none;
+    color: rgb(9, 85, 109);
+    font-size: 30px;
+    padding: 0 20px;  
+    
+}
+
+.titlename{
+    margin:0;
+    padding:0;
+}
+a:link{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(87, 197, 160);
+}
+a:active{
+    color:rgb(146, 127, 255);
+}
+.contactme{
+    border:6px;
+    border-color: rgb(220, 236, 250);
+    border-style: groove;
+    border-radius:10%;
+    margin-top: 40px;
+    margin-left:600px;
+    
+}
+h1{
+    background-color: rgb(220, 236, 250);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: rgb(9, 85, 109);
+    margin-top: 50px;
+    margin-left:0px;
+    width: 100%;
+    margin-bottom:20px;
+    border:6px;
+    border-color: rgb(9, 85, 109);
+    border-style:dotted;
+}
+.contact{
+    margin-top: 600px;
+
+}
+h3{
+    background-color: rgb(220, 236, 250);
+    border: 6px;
+    border-color:rgb(165, 192, 243);
+    border-style: dotted;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(93, 85, 109);
+    margin-top: 100px;
+    margin-left:0px;
+    width: 100%;
+    margin-bottom:20px;
+    font-size: 30px;
+}
+body{
+ box-sizing: border-box;
+ background-image: url(../Images/morocco.png);
+ box-sizing: border-box;
+ background-color:rgb(214, 172, 118);
+ box-sizing: border-box;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ letter-spacing:3px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(9, 85, 109);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 20px;
+}
+
+
+button{
+    color: white;
+    background-color:rgb(9, 85, 109);
+    padding: 12px 20px;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: rgb(87, 197, 160);
+}
+
+.container {
+   margin-top:0px;
+   border-radius: 5px;
+   background-color:rgb(220, 236, 250);
+   padding: 20px;
+   border:6px;
+   border-color: rgb(9, 85, 109);
+   border-style: dotted;
+   font-size: 30px;
+   margin-bottom: 40px;
+   margin-left:0px;
+   width:100%
+}
+h2{
+    background-color: rgb(220, 236, 250);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: rgb(9, 85, 109);
+    margin-top: 50px;
+    margin-left:0px;
+    width: 100%;
+    margin-bottom:20px;
+    border:6px;
+    border-color: rgb(9, 85, 109);
+    border-style:dotted;
+
+}
+.spanish{
+    margin-left:200px;
+    margin-right:40px;
+    margin-top:50px;
+    border:6px;
+    border-style:solid;
+    border-color: rgb(165, 192, 243);
+}
+.southkorea{
+    margin-left:200px;
+    margin-right:40px;
+    margin-top:50px;
+    border:6px;
+ border-style:solid;
+ border-color: rgb(165, 192, 243);
+}
+.greece{
+   border:6px;
+   border-style: solid;
+   border-color: rgb(165, 192, 243);
+}
+.newyork{
+ border:6px;
+ border-style:solid;
+ border-color: rgb(165, 192, 243);
+}
+.footer{
+    color: rgb(93, 85, 109);
+    width:50%
+}
+footer{
+    width:50%;
+    background-color: rgb(220, 236, 250);
+    text-align:center;
+    border: 6px;
+    border-color: rgb(165, 192, 243);
+    border-style:outset;
+    float: right;
+    clear: both;
+    margin-top: 200px;
+    height:100px;
+}
+.fas{
+    color: rgb(9, 85, 109);
+    font-size: 40px;
+    text-decoration: none;
+    float:left;
+    clear: both;
+    position: relative;
+    bottom:90px;
+    left: 40px;  
+}
+.fas:hover{
+    color: rgb(158, 200, 212);
+}
+.fab{
+    color:rgb(9, 85, 109);
+    font-size: 40px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+    left:100px;
+}
+.fab:hover{
+    color:rgb(158, 200, 212);
+}
+.footer{
+    background-color:rgb(220, 236, 250);
+    color:rgb(9, 85, 109);
+    font-size: 30px;
+    margin-left:200px;
+    color: rgb(9, 85, 109);
+    width:50%
+}
+.insta{
+    position: relative;
+    left: 200px;
+    
+}
+
